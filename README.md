@@ -8,6 +8,6 @@ another update
 
 test it on old build
 checkin once
-change it gain, update for shallow, checkin twice
+change it gain, update for shallow, checkin twice, check for gadgets
 
 test now. and gain, just an test update, update again.edit
