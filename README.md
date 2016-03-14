@@ -8,6 +8,6 @@ another update
 
 test it on old build
 checkin once
-change it gain, update for shallow
+change it gain, update for shallow, checkin twice
 
 test now. and gain, just an test update, update again.edit
