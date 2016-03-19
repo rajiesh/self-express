@@ -7,7 +7,7 @@ update again to check the failure
 another update
 
 test it on old build
-checkin once
+checkin once. check it up
 change it gain, update for shallow, checkin twice, check for gadgets
 
 test now. and gain, just an test update, update again.edit edit vi a PR
