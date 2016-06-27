@@ -18,4 +18,4 @@ adding hamges only to master
 adding somethig - change
 make some change
 new change
-whitelist or blacklist
+whitelist or blacklist. checkin for config repo
