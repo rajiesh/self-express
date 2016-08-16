@@ -19,3 +19,4 @@ adding somethig - change
 make some change
 new change
 whitelist or blacklist. checkin for config repo. checking for elastic agent
+windows build
