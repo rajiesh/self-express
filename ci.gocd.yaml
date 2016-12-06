@@ -1,0 +1,25 @@
+environments:
+  example:
+    pipelines:
+      - mypipe
+pipelines:
+  mypipe: # definition of yaml-example pipeline
+    group: yamlexample
+    label_template: "${mygit[:8]}"
+    locking: off
+    materials:
+      mygit: # this is the name of material
+        # keyword git says about type of material and url at once
+        git: https://github.com/gocd-contrib/getting-started-repo
+        branch: master
+    stages: # list of stages in order
+      - defaultStage: # name of stage
+          clean_workspace: true
+          jobs:
+            defaultJob: # name of the job
+              resources:
+               - java8
+               - linux
+              tasks: # ordered list of tasks to execute in job csharp
+               - exec: # indicates type of task
+                   command: ./build
