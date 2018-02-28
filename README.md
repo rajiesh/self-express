@@ -31,3 +31,4 @@ Commit to see will it run twice if mdu is on and old revision is specified
 Yes it runs twice, but what when no material specified
 TWO-UM-NOM-OEV
 Check a diamond dependency scenario
+Check TWO with single material
