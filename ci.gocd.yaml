@@ -18,7 +18,7 @@ pipelines:
           jobs:
             defaultJob: # name of the job
               resources:
-               - java8
+               - java7
                - linux
               tasks: # ordered list of tasks to execute in job csharp
                - exec: # indicates type of task
