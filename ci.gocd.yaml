@@ -5,7 +5,7 @@ environments:
 pipelines:
   mypipe: # definition of yaml-example pipeline
     group: yamlexample
-    label_template: "${mygit[:8]}"
+    label_template: "${mygit[:7]}"
     locking: off
     materials:
       mygit: # this is the name of material
